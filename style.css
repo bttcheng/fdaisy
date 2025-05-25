@@ -15,16 +15,16 @@ nav{
     /* Giữ nav ở trên cùng khi cuộn */
     position: sticky;
   }
-nav_logo{
+nav-logo{
     margin-top: 30px;
     padding-right: 100px;
 }
-.nav_menu {
+.nav-menu {
     display: flex;
     justify-content: space-evenly;  
     flex-grow: 1; 
 }
-.nav_menu a {
+.nav-menu a {
     flex: 1;                        
     text-align: center;             
     text-decoration: none;
@@ -49,10 +49,6 @@ nav_logo{
   flex: 1;
   border-bottom: 1px solid #f3d6ab; 
   margin: 0 10px; 
-}
-.medium-columns-3{
-    float: left;
-    
 }
 .footer-widget-container{
     float: left;
