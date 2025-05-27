@@ -80,7 +80,7 @@ nav-logo{
   justify-content: center;
   align-items: center;
   gap: 10px;
-  flex-wrap: flex;
+  flex-wrap: wrap;
 }
 
 .item img {
