@@ -138,7 +138,7 @@ object-fit: cover;
   width: 100vw;
 }
 .item{
-  background-color: rgb(243, 229, 204);
+  background-color: #f1ddd6;
   width:300px ;
   height: 370px;
   text-align: center;
@@ -163,7 +163,7 @@ footer{
   flex-wrap: wrap;
   width: 100%;
   padding: 20px 30px;
-  background-color: #f8f8f8;
+  background-color: #f2f2f2;
 }
 .footer-widget-container{
   background-color: #f0eaea;
