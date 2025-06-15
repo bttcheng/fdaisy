@@ -81,3 +81,23 @@ footer {
 .footer-column hr{
   width: 10%;
 }
+.product-card{
+overflow: hidden;
+height: 400px;
+
+}
+.product-item {
+    width: 100%; 
+    height: 300px; 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+}
+.product-item img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+    display: block; 
+}
