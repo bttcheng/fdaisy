@@ -116,7 +116,8 @@ border-radius: 5px;
 }
 .btn-custom{
   background-color: #F2B7B6;
+  border-radius: 0;
 }
 .btn-custom:hover{
-background-color: #dfb9b6;
+background-color: #d1ddd6;
 }
