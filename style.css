@@ -125,3 +125,7 @@ border-radius: 5px;
 .btn-custom:hover{
 background-color: #d1ddd6;
 }
+.about-us-title hr{
+  width: 10%;
+  margin: 0 auto;
+}
