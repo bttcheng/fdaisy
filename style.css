@@ -197,7 +197,9 @@ footer {
   width: 100%;
   border-radius: 16px;
 }
-
+.about-quote{
+  font-weight: bold;
+}
 .stats {
   display: flex;
   flex-wrap: wrap;
