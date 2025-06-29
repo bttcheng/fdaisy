@@ -68,65 +68,157 @@ body {
   display: block;
   margin-top: 0;
 }
-.dropdown-item:hover{
+
+.dropdown-item:hover {
   color: #dfb9b6;
 }
+
 .banner img {
   height: 600px;
   width: 100%;
-  
+
   display: block;
 }
-.title{
+
+.title {
   color: #F2B7B6;
 }
+
 .line {
   border-top: 1px solid #dfb9b6 !important;
 }
+
 footer {
   background-color: #f2f2f2;
 }
-.footer-column hr{
+
+.footer-column hr {
   width: 10%;
 }
-.product-card{
-overflow: hidden;
-border-radius: 5px;
+
+.product-card {
+  overflow: hidden;
+  border-radius: 5px;
 }
+
 .product-item {
-    width: 100%; 
-    height: 350px; 
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
+
 .product-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; 
-    display: block;
-    transition: transform 0.3s ease;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
 }
-.product-item img:hover{
+
+.product-item img:hover {
   transform: scale(1.1);
 }
+
 .product-title {
   margin: 10px 0 10px 0;
 }
-.category img{
+
+.category img {
   display: block;
   border-radius: 10px;
 }
-.btn-custom{
+
+.btn-custom {
   background-color: #F2B7B6;
   border-radius: 0;
 }
-.btn-custom:hover{
-background-color: #d1ddd6;
+
+.btn-custom:hover {
+  background-color: #d1ddd6;
 }
-.about-us-title hr{
-  width: 10%;
+
+.about-container {
   margin: 0 auto;
+  padding: 100px 20px 60px;
+}
+
+.about-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-intro {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto 60px;
+  text-align: center;
+}
+
+.about-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 60px;
+}
+
+.quote {
+  font-family: 'Dancing Script', cursive;
+  font-size: 28px;
+  color: #c96;
+  text-align: center;
+  margin: 60px 0;
+}
+
+.about-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.about-photo {
+  flex: 1;
+  min-width: 280px;
+}
+
+.about-photo img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 60px;
+  text-align: center;
+  gap: 20px;
+}
+
+.stat {
+  font-size: 18px;
+  flex: 1;
+  min-width: 200px;
+}
+
+.stat strong {
+  font-size: 36px;
+  display: block;
+  color: #bf6b56;
+}
+
+.about-container {
+  background-color: #fefaf4;
 }
