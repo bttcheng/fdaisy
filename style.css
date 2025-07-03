@@ -197,9 +197,11 @@ footer {
   width: 100%;
   border-radius: 16px;
 }
-.about-quote{
+
+.about-quote {
   font-weight: bold;
 }
+
 .stats {
   display: flex;
   flex-wrap: wrap;
@@ -224,10 +226,12 @@ footer {
 .about-container {
   background-color: #fefaf4;
 }
-.box-img img{
+
+.box-img img {
   width: 270px;
   height: 300px;
 }
-.box-text p{
+
+.box-text p {
   margin-bottom: 0;
 }
