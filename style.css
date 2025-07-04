@@ -236,3 +236,7 @@ footer {
 .box-text p {
   margin-bottom: 0;
 }
+.custom-round{
+  border-radius: 40px !important;
+  height: 44px;
+}
