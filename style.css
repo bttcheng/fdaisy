@@ -240,3 +240,13 @@ footer {
   border-radius: 40px !important;
   height: 44px;
 }
+.contact-infor-box{
+  background-color: #c96;
+  height: 100%;
+}
+.bg-opacity {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.custom-box-message{
+  
+}
